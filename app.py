@@ -1,6 +1,5 @@
 import streamlit as st
 from ml_app import run_ml_app
-from lightgbm import LGBMClassifier
 
 def main():
     st.title("Term Deposit Predictor")
