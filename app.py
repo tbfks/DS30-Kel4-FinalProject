@@ -1,5 +1,6 @@
 import streamlit as st
 from ml_app import run_ml_app
+pip install lightgbm
 
 def main():
     st.title("Term Deposit Predictor")
