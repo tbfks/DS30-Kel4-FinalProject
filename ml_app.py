@@ -42,7 +42,7 @@ def get_value(val,my_dict):
         if val == key:
             return value
 
-@st.cache
+@st.cache_data
 def load_model(model_file):
     loaded_model = joblib.load(open(os.path.join(model_file),'rb'))
     return loaded_model    
