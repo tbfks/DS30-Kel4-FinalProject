@@ -1,3 +1,4 @@
+import lightgbm as lgb
 import streamlit as st
 from ml_app import run_ml_app
 
